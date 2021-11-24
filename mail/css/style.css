@@ -1,0 +1,40 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Quicksand', sans-serif;
+    color: white;
+}
+
+h1 {
+    padding: 1em;
+    font-size: 5em;
+}
+
+.container {
+    padding-top: 15em;
+    text-align: center;
+    background-image: url(../img/photo.jpg);
+    background-size: cover;
+    height: 100vh;
+    overflow: hidden;
+}
+
+section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+}
+
+.opacity {
+    margin: 0 500px;
+    height: 400px;
+    background-color: rgba(0, 0, 0, 0.404);
+    border-radius: 25px;
+}
