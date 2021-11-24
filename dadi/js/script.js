@@ -5,7 +5,6 @@ const container = document.querySelector(".container")
 const numbers = document.querySelector(".numbers")
 const winner = document.querySelector(".winner")
 
-// numeri random
 let randNumbUser = Math.floor(Math.random() * 6) + 1;
 let randNumbPc = Math.floor(Math.random() * 6) + 1;
 
